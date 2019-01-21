@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.obadiahkorir.e_guard.MainActivity"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="8"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:padding="5dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_columnWeight="1"
+                android:id="@+id/Respiratory_card"
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/conference"
+                       />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Business Events"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/Behavior_card"
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_columnWeight="1"
+
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/birthday"
+                        />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Birthday Events"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_columnWeight="1"
+                android:id="@+id/intestine_card"
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/birthday"
+                        />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Standing Events"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/parasitic_card"
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_columnWeight="1"
+
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/birthday"
+                        />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Protests Events"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:id="@+id/lame_card"
+                android:layout_columnWeight="1"
+
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/birthday"
+                       />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Seminars $ Conferences "
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_columnWeight="1"
+                android:id="@+id/skin_card"
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/birthday"
+                        />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Appreciation Events"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/nutritional_card"
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_columnWeight="1"
+
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/birthday"
+                        />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Meetings"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/fungal_card"
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_columnWeight="1"
+
+                android:layout_margin="10dp"
+                app:cardElevation="18dp"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/birthday"
+                        />
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:text="Organization Milestones"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</android.widget.ScrollView>
+
